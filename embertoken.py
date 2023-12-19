@@ -21,10 +21,10 @@ if os.path.exists(csv_filename):
     discovered_item = None
 
     with open(csv_filename, newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
+        reader = csv.reader(csvfile)
         for row in reader:
-            if int(row['roll']) == d100_roll:
-                discovered_item = row['Item']
+            if int(row[2]) == d100_roll: #this is the column for the dice roll
+                discovered_item = row[1] #this is the columne for the item
                 break
 
     # Step 6: Print the results
