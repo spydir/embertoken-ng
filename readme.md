@@ -1,11 +1,15 @@
-# Dungeon Master's Loot Generator Script
+# Embertoken-DM
 
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ## Description
 
-The Dungeon Master's Loot Generator Script is a Python script that allows dungeon masters to simulate the discovery of loot from treasure chests in a tabletop role-playing game. It randomly selects loot categories and generates items based on a d100 dice roll from CSV loot tables.
+Embertoken is based on an idea that my fellow gamers and I developed many moons ago. We wanted to "burn" all the tokens and extranious stuff because they caused too much set-up and teardown time for our games and took away from our precious play time. 
+
+Embertoken-DM follows this concept with it's humble beginnings as a simple loot-table roller for Indexcard RPG. It currently remains simplistic start to automating the tables in the back of IndexCard RPG.
+
+This first iteration randomly selects loot categories and generates items based on a d100 dice roll from CSV loot tables.
 
 ## Features
 
@@ -31,12 +35,12 @@ The Dungeon Master's Loot Generator Script is a Python script that allows dungeo
 2. Navigate to the project directory:
 
 
-```
-cd dungeon-loot-generator
-```
+    ```
+    cd dungeon-loot-generator
+    ```
 
 3. Install the required dependencies:
 
-```
-pip install -r requirements.txt
-```
+    ```
+    pip install -r requirements.txt
+    ```
