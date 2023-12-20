@@ -1,0 +1,19 @@
+{
+    "Name": "sally",
+    "Class": "Thief",
+    "Race": "Elf",
+    "Attributes": {
+        "STR": 2,
+        "DEX": 1,
+        "INT": 8
+    },
+    "HP": 12,
+    "EFF": 3,
+    "AC": 1,
+    "Alignment": "Neutral",
+    "Background": "A mysterious traveler",
+    "Personality": "Courageous and quick-witted",
+    "Ideals": "Help those in need",
+    "Bonds": "Protects a secret treasure",
+    "Flaws": "Impulsive and reckless"
+}
