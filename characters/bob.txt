@@ -1,0 +1,12 @@
+Name: bob
+Class: Wildling
+Race: Human
+Attributes: {'STR': 4, 'DEX': 10, 'CON': 3, 'INT': 10, 'WIS': 7, 'CHA': 1, 'ARM': 2, 'BASIC': 6, 'WEAPON': 4, 'GUN': 10, 'MAGIC': 1, 'ULTIMATE': 1}
+Hearts: 1
+DEF: 13
+Alignment: Neutral
+Background: A mysterious traveler
+Personality: Courageous and quick-witted
+Ideals: Help those in need
+Bonds: Protects a secret treasure
+Flaws: Impulsive and reckless

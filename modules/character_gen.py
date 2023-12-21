@@ -6,24 +6,27 @@ import csv
 # Function to generate a character
 def generate_character():
     # Step 1: Choose a Class (You can expand this list as needed)
-    classes = ['Warrior', 'Wizard', 'Thief', 'Cleric']
+    classes = ['Guardian', 'Blade','Shadow','Archer','Priest','Scout','Mage','Commander','Wildling']
     character_class = random.choice(classes)
 
     # Step 2: Choose a Race (You can expand this list as needed)
-    races = ['Human', 'Dwarf', 'Elf', 'Halfling']
-    character_race = random.choice(races)
+    lifeforms = ['Human', 'Dwarf', 'Elf', 'Small Folk','Hill folk']
+    character_lifeform = random.choice(lifeforms)
 
     # Step 3: Assign Attributes
-    attributes = {'STR': random.randint(1, 10), 'DEX': random.randint(1, 10), 'INT': random.randint(1, 10)}
-
-    # Step 4: Calculate Hit Points (HP)
-    hp = 10 + attributes['STR']
-
-    # Step 5: Calculate Effort (EFF)
-    eff = attributes['STR'] + attributes['DEX']
-
-    # Step 6: Calculate Armor Class (AC)
-    ac = attributes['DEX']
+    attributes = {'STR': random.randint(1, 10), 
+                  'DEX': random.randint(1, 10), 
+                  'CON': random.randint(1, 10), 
+                  'INT': random.randint(1, 10),
+                  'WIS': random.randint(1, 10),
+                  'CHA': random.randint(1, 10),
+                  'ARM': random.randint(1, 10),
+                  'BASIC': random.randint(1, 10),
+                  'WEAPON': random.randint(1, 10),
+                  'GUN': random.randint(1, 10),
+                  'MAGIC': random.randint(1, 10),
+                  'ULTIMATE': random.randint(1, 10)
+                  }
 
     # Step 7: Choose Alignment (Optional)
     alignments = ['Good', 'Neutral', 'Evil']
@@ -44,11 +47,10 @@ def generate_character():
     character_sheet = {
         'Name': name,
         'Class': character_class,
-        'Race' : character_race,
+        'Race' : character_lifeform,
         'Attributes': attributes,
-        'HP': hp,
-        'EFF': eff,
-        'AC': ac,
+        'Hearts': 1,
+        'DEF': 10 + attributes['CON'],
         'Alignment': alignment,
         'Background': background,
         'Personality': personality,

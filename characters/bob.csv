@@ -1,0 +1,2 @@
+Name,Class,Race,Attributes,Hearts,DEF,Alignment,Background,Personality,Ideals,Bonds,Flaws
+bob,Wildling,Human,"{'STR': 4, 'DEX': 10, 'CON': 3, 'INT': 10, 'WIS': 7, 'CHA': 1, 'ARM': 2, 'BASIC': 6, 'WEAPON': 4, 'GUN': 10, 'MAGIC': 1, 'ULTIMATE': 1}",1,13,Neutral,A mysterious traveler,Courageous and quick-witted,Help those in need,Protects a secret treasure,Impulsive and reckless
